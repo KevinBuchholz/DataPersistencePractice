@@ -17,10 +17,12 @@ struct ContentView: View {
                     .font(.system(size: 100))
                 Button("Score!") {
                     viewModel.addPoint()
+                    viewModel.save()
                 }
                 .padding()
                 Button("Reset.") {
                     viewModel.resetPoints()
+                    viewModel.save()
                 }
                 .padding()
 
