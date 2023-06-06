@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  AddScoreView.swift
 //  YOUNEEDTOFUCKINGGETTHIS
 //
 //  Created by Kevin Buchholz on 5/31/23.
@@ -7,33 +7,29 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    @StateObject private var viewModel = yntfgtViewModel()
-  
+struct AddScoreView: View {
+    @ObservedObject var viewModel : yntfgtViewModel
+
     var body: some View {
         NavigationStack {
             VStack {
                 Text("\(viewModel.score)")
                     .font(.system(size: 100))
+                
                 Button("Score!") {
                     viewModel.addPoint()
                 }
                 .padding()
-                Button("Reset.") {
-                    viewModel.resetPoints()
-                }
-                .padding()
-
-                NavigationLink("Score points somewhere else.", destination: AddScoreView(viewModel: viewModel))
             }
-            .padding()
+            
+            NavigationLink("View Score", destination: TotalScoreView(viewModel: viewModel))
+            
         }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct AddScoreView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
-            
+        AddScoreView(viewModel: yntfgtViewModel())
     }
 }
