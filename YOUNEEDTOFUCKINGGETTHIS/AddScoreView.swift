@@ -18,6 +18,7 @@ struct AddScoreView: View {
                 
                 Button("Score!") {
                     viewModel.addPoint()
+                    viewModel.save()
                 }
                 .padding()
             }

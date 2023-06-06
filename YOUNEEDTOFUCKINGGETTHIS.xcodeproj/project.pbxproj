@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D621B8A72A2FB70000B85915 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D621B8A62A2FB70000B85915 /* FileManager.swift */; };
 		D69A041A2A27BA6E00225E85 /* YOUNEEDTOFUCKINGGETTHISApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69A04192A27BA6E00225E85 /* YOUNEEDTOFUCKINGGETTHISApp.swift */; };
 		D69A041C2A27BA6E00225E85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69A041B2A27BA6E00225E85 /* ContentView.swift */; };
 		D69A041E2A27BA6F00225E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69A041D2A27BA6F00225E85 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D621B8A62A2FB70000B85915 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		D69A04162A27BA6E00225E85 /* YOUNEEDTOFUCKINGGETTHIS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOUNEEDTOFUCKINGGETTHIS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69A04192A27BA6E00225E85 /* YOUNEEDTOFUCKINGGETTHISApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOUNEEDTOFUCKINGGETTHISApp.swift; sourceTree = "<group>"; };
 		D69A041B2A27BA6E00225E85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				D69A041D2A27BA6F00225E85 /* Assets.xcassets */,
 				D69A041F2A27BA6F00225E85 /* Preview Content */,
 				D69A04432A27BAA400225E85 /* yntfgtViewModel.swift */,
+				D621B8A62A2FB70000B85915 /* FileManager.swift */,
 			);
 			path = YOUNEEDTOFUCKINGGETTHIS;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				D69A041C2A27BA6E00225E85 /* ContentView.swift in Sources */,
 				D69A04462A27BB0B00225E85 /* AddScoreView.swift in Sources */,
 				D69A041A2A27BA6E00225E85 /* YOUNEEDTOFUCKINGGETTHISApp.swift in Sources */,
+				D621B8A72A2FB70000B85915 /* FileManager.swift in Sources */,
 				D69A04482A27BB1A00225E85 /* TotalScoreView.swift in Sources */,
 				D69A044A2A27D78500225E85 /* Score.swift in Sources */,
 				D69A04442A27BAA400225E85 /* yntfgtViewModel.swift in Sources */,
